@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">休闲沙湾</string>
+    <string name="action_settings">Settings</string>
+    <string name="enter">开启沙湾之旅</string>
+    <string name="title_activity_home">主页</string>
+    <string name="location">正在搜索当前城市</string>
+    <string name="weather">正在获取当前气温</string>
+    <string name="news">我是小新闻</string>
+    <string name="searchhint">搜索景点、餐馆、目的地……</string>
+    <string name="leftmenu2">软件设置</string>
+    <string name="leftmenu3">分享软件</string>
+    <string name="leftmenu4">关于软件</string>
+    <string name="leftmenu5">意见反馈</string>
+    <string name="weatherBaseSite">http://weather.51wnl.com/weatherinfo/GetMoreWeather</string>   
+    <string name="title_activity_collection">CollectionActivity</string>
+    <string name="load_tips">正在查询，请稍后……</string>
+    <string name="version">休闲沙湾 V2.0</string>
+    <string name="recommend">推荐应用</string>
+    <string name="guangyuan">广元旅游</string>
+    <string name="lijiang">丽江旅游</string>
+    <string name="luoma">罗马旅游</string>
+    <string name="qingmai">清迈旅游</string>
+    <string name="bali">巴黎旅游</string>
+    <string name="dibai">迪拜旅游</string>
+    <string name="contactus">联系我们</string>
+    <string name="phonenumber">电话：</string>
+    <string name="website">网址：</string>
+    <string name="welcome">欢迎各类旅游商务合作</string>
+    <string name="feedback_hint">您的反馈是我们最宝贵的建议</string>
+    <string name="submit">提交</string>
+    <string name="phonetext">电话号码:</string>
+    <string name="write">选填</string>
+    <string name="all">全部</string>
+    <string name="scenic">景点</string>
+    <string name="hotel">住宿</string>
+    <string name="food">美食</string>
+    <string name="shopping">购物</string>
+    <string name="game">娱乐</string>
+    <string name="exit">退出应用</string>
+    <string name="ok">确定</string>
+    <string name="cancle">取消</string>
+    <string name="search">搜索</string>
+    <string name="scenicdescription">山水风光一览无余</string>
+    <string name="hoteldescription">客栈&#160;&#160;&#160;舒适&#160;&#160;&#160;豪华型酒店</string>
+    <string name="fooddescription">吃遍舌尖上的沙湾美食</string>
+    <string name="shoppingdescription">生活日用品&#160;&#160;&#160;应有尽有</string>
+    <string name="gamedescription">K歌&#160;&#160;&#160;泡吧&#160;&#160;&#160;随心所欲</string>
+    <string name="notification">开启后台通知</string>
+    <string name="shake">通知时震动</string>
+  	<string name="updatesoftware">软件更新</string>
+  	<string name="textcounter">还可以输入200个字</string>
+    
+    <string name="about" formatted="false">&#160;&#160;&#160;&#160;&#160;&#160;沙湾县是自治区确定的天山北坡经济带优先发展的县市之一，是塔城地区的东大门，位于新疆天山北麓中段、准噶尔盆地南缘，东接石河子市，南依和静县，西邻奎屯市、独山子区，北连克拉玛依市。辖区面积1.31万平方公里，总人口39万人，其中地方人口21万人，由汉、哈、回、维等30个民族组成，辖9镇、3乡、5个农牧林场和2个管理处，250个村队。沙湾县先后荣获科技进步、文化体育、民政双拥等20多个国家级先进县称号，基层组织建设、招商引资、就业再就业等30多个自治区级先进县称号，蝉联八届自治区文明县、两届全国文明县城。\n
+    &#160;&#160;&#160;&#160;&#160;&#160;沙湾县区位优势突出，地处天山北坡经济带核心地段，是通往伊犁、博州、塔城、阿勒泰等地州的必经之地；东距首府乌鲁木齐市185公里，城际铁路即将开通，到乌鲁木齐国际机场约1.5小时车程，境内正在建设的乌兰乌苏机场2015年通航，550公里范围内向西向北可直抵霍尔果斯、阿拉山口、巴克图、吉木乃四个国家一类陆路通商口岸；境内交通发达，国防公路（S101）、北疆铁路和115省道、连霍高速公路、克榆公路自东向西横穿县境，219、223、224三条省道和3条县道自南向北纵贯全县，形成“五横六纵”的交通网络。\n
+    &#160;&#160;&#160;&#160;&#160;&#160;生态环境良好，全县有耕地160余万亩、883万亩草场、40万亩自然林地，绿洲森林覆盖率达24%，森林覆盖率达12%。空气质量高，2013年优良天数达到320天。\n
+    &#160;&#160;&#160;&#160;&#160;&#160;矿产资源丰富，县内蕴藏石油、煤炭、石灰石、天然气、砂金、芒硝、页岩、玉石等40多种矿产资源，其中已探明煤炭储量17亿吨，远景储量100亿吨；探明石灰石储量3.5亿吨，远景储量达5亿吨；石油、天然气地质储量分别在5亿吨和2000亿立方米以上。\n
+    &#160;&#160;&#160;&#160;&#160;&#160;新型工业化初具规模，沙湾工业园区是自治区级园区，园区近期规划面积10平方公里，园区基础设施基本完善，具备入驻大企业、大集团的条件。目前，全县工业企业达300余家，其中规模以上企业44家，已建立食品、棉纺、煤炭、建材、能源、塑化、焦化、有色金属等八大工业体系。\n
+    &#160;&#160;&#160;&#160;&#160;&#160;旅游资源得天独厚，沙湾县是享誉全国的大盘鸡美食的故乡，县域有冰川雪岭、峡谷山川、原始森林、湖泊河流、天山草原、瀚海沙漠等多种旅游资源，自然景观和人文景观众多，已建成国家A级以上旅游景区4个，分别是温泉景区（国家AAA级）、鹿角湾（国家AAA级）、森林公园（国家AAA级）、东大塘（国家A级），可赏天山美景、品大盘美食、沐神水温泉。\n
+    &#160;&#160;&#160;&#160;&#160;&#160;文化底蕴深厚，沙湾是丝绸故道，有四处驿站，自汉代就有历史记载。古往今来，五湖四海的内地文化和边疆各少数民族文化相辉映、相融合，形成了具有浓郁地方特色的沙湾本土文化，涌现出了众多知名本土作家和诗人，出版了《一个人的村庄》、《家住沙湾》等30余部文学作品。社会持续稳定，长期以来，各民族和睦相处，各族群众安居乐业，荣获全国民族团结进步模范县、自治区优秀平安县称号。\n
+    &#160;&#160;&#160;&#160;&#160;&#160;2013年，全县完成生产总值112.3亿元，增长16.3%；完成地方财政一般预算收入6.12亿元，增长22.1%；实现农牧民人均纯收入13629元、城镇居民可支配收入21600元。\n
+    &#160;&#160;&#160;&#160;&#160;&#160;2014年及今后一个时期全县各级党政以中国特色社会主义理论和科学发展观为指导，全面贯彻落实党的十八大和十八届三中全会精神以及自治区党委、地委的一系列部署，高举各民族大团结的旗帜，围绕长治久安抓发展。抢抓机遇，改革创新，奋力拼搏。发展现代文化，建设平安沙湾、创新沙湾，保持生态优美。以新型城镇化为突破口、新型工业化为第一推动力、农牧业现代化为基础，统筹推进“五化”同步发展。把围绕旅游业发展现代服务业作为主战场。创建教育、科技、卫生强县，持续改善民生。进一步发挥好鞍山援助沙湾的作用，进一步加强兵地、油地融合发展。继续创新党的建设。按照一年打基础、两年出形象、三年见成效、五年大变样、十年全面完成的目标，坚持“讲政治、为人民、用政策、凭智慧、靠大家”，“想第一、争第一、干第一”，“不自满、不懈怠、不折腾”，坚持只有努力才能改变、只要努力就能改变，抢抓机遇，改革创新，奋力拼搏，努力把沙湾打造成丝绸之路经济带上休闲之都。\n
+   	&#160;&#160;&#160;&#160;&#160;&#160;2014年，计划地方生产总值增长14%，工业增加值增长26%，公共财政预算收入增长20%，全社会固定资产投资增长9.8%，农牧民人均纯收入增加1000元以上；社会消费品零售总额增长14%以上。\n
+    </string>
+</resources>

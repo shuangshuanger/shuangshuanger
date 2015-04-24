@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#FF00bdd4</color>
+    <color name="zangqing">#FF0098A8</color>
+    <color name="transparent">#00000000</color>
+    <color name="dark">#ff000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="grade">#ff888888</color>
+    <color name="lightgrade">#88888888</color>
+    <color name="lightdark">#55000000</color>
+</resources>

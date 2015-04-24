@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp">
+      
+    <ImageView 
+        android:id="@+id/icon_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_scenicspot"/>
+        
+    <LinearLayout 
+        android:id="@+id/content_item"
+        android:layout_toRightOf="@id/icon_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:paddingTop="12dp"
+        android:orientation="vertical">
+            
+        <TextView
+            android:id="@+id/kind_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/scenic"
+            android:textSize="20sp" />
+            
+        <TextView
+            android:id="@+id/description_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            android:text="@string/scenicdescription"/>
+            
+    </LinearLayout>
+    
+    <ImageView 
+        android:id="@+id/enter_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentRight="true" 
+        android:background="@color/transparent"
+        android:src="@drawable/btn_enter"/>
+    
+    <TextView
+        android:id="@+id/count_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/enter_item"
+        android:layout_centerInParent="true"
+        android:paddingRight="10dp"
+        android:textSize="16sp"
+        android:text="" />
+
+</RelativeLayout>

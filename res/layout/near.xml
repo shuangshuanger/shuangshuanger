@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <RelativeLayout 
+        android:id="@+id/near_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="@color/bg">
+        
+        <ImageButton 
+            android:id="@+id/near_back"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentLeft="true"
+        	android:layout_centerVertical="true"
+        	android:background="@color/transparent"
+        	android:src="@drawable/btn_back" />
+        
+        <EditText 
+            android:id="@+id/near_search_text"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_centerInParent="true"
+        	android:textSize="16sp"
+        	android:hint="@string/searchhint"/>
+        
+        <ImageButton 
+            android:id="@+id/near_search_icon"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_toRightOf="@id/near_search_text"
+        	android:layout_centerVertical="true"
+        	android:background="@color/transparent"
+        	android:src="@drawable/btn_search" />
+   
+    </RelativeLayout>
+
+	<org.kymjs.kjframe.widget.KJListView 
+        android:id="@+id/near_listview"
+        android:layout_below="@id/near_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    
+    <include
+        android:id="@+id/near_bottom"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentBottom="true"
+    	layout="@layout/nearbtn_item"/>
+
+</RelativeLayout>

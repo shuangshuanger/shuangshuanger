@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${packageName}.${activityClass}" >
+
+     <include
+        android:id="@+id/collection_top"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentTop="true"
+    	layout="@layout/layout_top"/>
+     
+     <LinearLayout 
+        android:id="@+id/allkinds"
+        android:layout_below="@id/collection_top"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal" >
+    	
+        <Button 
+            android:id="@+id/all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/zangqing"
+            android:text="@string/all"/>
+        
+        <Button 
+            android:id="@+id/scenic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:text="@string/scenic"/>
+        
+        <Button 
+            android:id="@+id/hotel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:text="@string/hotel"/>
+        
+        <Button 
+            android:id="@+id/food"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:text="@string/food"/>
+        
+        <Button 
+            android:id="@+id/shopping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:text="@string/shopping"/>
+        
+        <Button 
+            android:id="@+id/game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:text="@string/game"/>
+        
+    </LinearLayout>
+    
+     <include
+        android:id="@+id/collection_bottom"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentBottom="true"
+    	layout="@layout/collectionbtn_item"/>
+    
+    <org.kymjs.kjframe.widget.KJListView 
+        android:id="@+id/collection_listview"
+        android:layout_above="@id/collection_bottom"
+        android:layout_below="@id/allkinds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

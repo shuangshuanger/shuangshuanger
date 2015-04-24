@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <include
+		android:id="@+id/top"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentTop="true"
+    	layout="@layout/layout_top"/>
+    
+    <org.kymjs.kjframe.widget.KJListView 
+        android:id="@+id/listview"
+        android:layout_below="@id/top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    
+    <include
+        android:id="@+id/bottom"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentBottom="true"
+    	layout="@layout/main_function"/>
+
+</RelativeLayout>

@@ -1,0 +1,151 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity" >
+
+    <FrameLayout
+        android:id="@+id/uplayer"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical" >
+
+    	<ViewFlipper
+        	android:id="@+id/viewflipper2"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"/>
+    	
+    	<ImageButton
+    	    android:id="@+id/menu"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:paddingLeft="8dp"
+    	    android:paddingTop="10dp"
+    	    android:src="@drawable/btn_menu" 
+    	    android:background="@color/transparent"
+    	    android:layout_gravity="left"/>
+
+	</FrameLayout>
+	
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" 
+        android:layout_below="@id/uplayer" >
+    	
+        <LinearLayout
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:paddingLeft="10dp"
+        	android:layout_marginTop="10dp"
+        	android:orientation="horizontal" >
+    	
+        	<ImageView
+    	    	android:layout_width="wrap_content"
+    	    	android:layout_height="wrap_content"
+    	    	android:src="@drawable/icon_location" />
+        	
+        	<TextView
+        	    android:id="@+id/location"
+        	    android:layout_width="wrap_content"
+    	    	android:layout_height="wrap_content"
+    	    	android:textSize="16sp"
+    	    	android:text="@string/location" />
+        	
+        	<ImageView
+    	    	android:layout_width="wrap_content"
+    	    	android:layout_height="wrap_content"
+    	    	android:layout_marginLeft="10dp"
+    	    	android:src="@drawable/icon_location" />
+        	
+        	<TextView
+        	    android:id="@+id/weather"
+        	    android:layout_width="wrap_content"
+    	    	android:layout_height="wrap_content"
+    	    	android:textSize="16sp"
+    	    	android:text="@string/weather" />
+        	
+        </LinearLayout>
+        
+       	<LinearLayout
+       	    android:id="@+id/aboutnews"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:paddingLeft="10dp"
+        	android:orientation="horizontal"
+        	android:layout_marginTop="10dp" >
+    	
+        	<ImageView
+    	    	android:layout_width="wrap_content"
+    	    	android:layout_height="wrap_content"
+    	    	android:src="@drawable/icon_notice" />
+        	
+        	<TextView
+        	    android:id="@+id/news"
+        	    android:layout_width="wrap_content"
+    	    	android:layout_height="wrap_content"
+    	    	android:layout_marginLeft="10dp"
+    	    	android:textSize="16sp"
+    	    	android:text="@string/news" />
+        	
+        	<ImageView
+    	    	android:layout_width="wrap_content"
+    	    	android:layout_height="wrap_content"
+    	    	android:layout_marginLeft="10dp"
+    	    	android:layout_marginTop="3dp"
+    	    	android:src="@drawable/newsdetail" />
+        	
+        </LinearLayout>
+        
+       	<FrameLayout
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal"
+        	android:layout_marginTop="10dp" 
+        	android:paddingLeft="8dp"
+        	android:paddingRight="8dp">
+        	
+       	    <EditText
+       	        android:id="@+id/searchcontent"
+       	        android:layout_height="wrap_content"
+       	        android:layout_width="wrap_content"
+       	        android:textSize="16sp"
+       	        android:hint="@string/searchhint"
+       	        android:background="@drawable/input_searchbox" />
+       	    
+       	    <ImageButton
+       	        android:id="@+id/search"
+       	        android:layout_width="wrap_content"
+       	        android:layout_height="match_parent"
+       	        android:paddingRight="24dp"
+       	        android:layout_gravity="right|center"
+       	        android:background="@color/transparent"
+       	        android:src="@drawable/icon_search" />
+        	
+        </FrameLayout>
+   
+       	<LinearLayout 
+       	    android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginTop="10dp">
+        	
+       	    <GridView 
+       	        android:id="@+id/grid_menu"
+      			android:gravity="center_horizontal"
+      			android:layout_width="wrap_content"
+      			android:layout_height="wrap_content"
+      			android:numColumns="4"
+      			android:stretchMode="columnWidth" >
+       	    </GridView>
+       	    
+       	</LinearLayout>
+       	  	
+    </LinearLayout>
+
+    <include
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentBottom="true"
+    	layout="@layout/homebtn_item"/>
+    
+</RelativeLayout>
